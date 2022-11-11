@@ -1,13 +1,17 @@
-.header-navigation {
+.header {
   display: flex;
   align-items: center;
   border-bottom: 1px solid var(--border-header);
 }
-.flex {
+.header__container {
   display: flex;
   align-items: center;
 }
 
-.header-item:not(:last-child) {
+.contacts-nav__item,
+.contacts__item:not(:last-child) {
   margin-right: 50px;
 }
+// .header-item:not(:last-child) {
+//   margin-right: 50px;
+// }

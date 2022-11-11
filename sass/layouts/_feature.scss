@@ -1,12 +1,12 @@
-.feature-list {
+.feature__list {
   display: flex;
   gap: 30px;
 }
-.feature-item {
+.feature__item {
   width: 270px;
   height: 120px;
 }
-.feature-link {
+.feature__link {
   width: 100%;
   height: 100%;
   border-radius: 4px;
@@ -16,7 +16,7 @@
   background-color: var(--section31-background-color);
 }
 
-.feature-title {
+.feature__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -26,7 +26,7 @@
   margin-bottom: 10px;
   margin-top: 30px;
 }
-.feature-text {
+.feature__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;

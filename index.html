@@ -19,40 +19,44 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header class="header-navigation">
-      <div class="container flex">
+    <header class="header">
+      <div class="container header__container">
         <!-- logo -->
-        <a href="./index.html" class="header-navigation-logo"
-          >Web<span class="logo-black">Studio</span></a
+        <a href="./index.html" class="logo"
+          >Web<span class="logo__black">Studio</span></a
         >
         <!-- Меню навігації по інших сторінках -->
         <nav>
-          <ul class="header-list list">
-            <li class="header-item">
-              <a class="link current" href="./index.html">Студія</a>
+          <ul class="contacts-nav list">
+            <li class="contacts-nav__item">
+              <a class="contacts-nav__link current" href="./index.html"
+                >Студія</a
+              >
             </li>
-            <li class="header-item">
-              <a class="link" href="./portfolio.html">Портфоліо</a>
+            <li class="contacts-nav__item">
+              <a class="contacts-nav__link" href="./portfolio.html"
+                >Портфоліо</a
+              >
             </li>
-            <li class="header-item">
-              <a class="link" href="#">Контакти</a>
+            <li class="contacts-nav__item">
+              <a class="contacts-nav__link" href="#">Контакти</a>
             </li>
           </ul>
         </nav>
 
-        <ul class="header-contact-list list">
-          <li class="header-item">
+        <ul class="contacts list">
+          <li class="contacts__item">
             <!-- Посилання на адресу електронної пошти  -->
-            <a class="header-mail" href="mailto:info@devstudio.com"
-              ><svg class="envelope-icon" width="16" height="12">
+            <a class="contacts__mail" href="mailto:info@devstudio.com"
+              ><svg class="contacts__envelope-icon" width="16" height="12">
                 <use href="./images/symbol-defs.svg#envelope"></use></svg
               >info@devstudio.com</a
             >
           </li>
-          <li class="header-item">
+          <li class="contacts__item">
             <!-- Посилання на телефонний номер -->
-            <a class="header-phone" href="tel:+380961111111"
-              ><svg class="smartphone-icon" width="12" height="16">
+            <a class="contacts__phone" href="tel:+380961111111"
+              ><svg class="contacts__smartphone-icon" width="12" height="16">
                 <use href="./images/symbol-defs.svg#smartphone"></use></svg
               >+38 096 111 11 11</a
             >
@@ -77,49 +81,49 @@
         <!-- Фон на весь блок Hero -->
         <div class="container">
           <h2 class="visually-hidden">Наші особливості</h2>
-          <ul class="feature-list list">
-            <li class="feature-item">
-              <a href="" class="feature-link link"
-                ><svg class="feature-icon" width="70px" height="70px">
+          <ul class="feature__list list">
+            <li class="feature__item">
+              <a href="" class="feature__link link"
+                ><svg class="feature__icon" width="70px" height="70px">
                   <use href="./images/symbol-defs.svg#antenna-1"></use></svg
               ></a>
-              <h3 class="feature-title">Увага до деталей</h3>
-              <p class="feature-text">
+              <h3 class="feature__title">Увага до деталей</h3>
+              <p class="feature__text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
-            <li class="feature-item">
-              <a href="" class="feature-link link"
-                ><svg class="feature-icon" width="70px" height="70px">
+            <li class="feature__item">
+              <a href="" class="feature__link link"
+                ><svg class="feature__icon" width="70px" height="70px">
                   <use href="./images/symbol-defs.svg#clock-1"></use></svg
               ></a>
-              <h3 class="feature-title">Пунктуальність</h3>
-              <p class="feature-text">
+              <h3 class="feature__title">Пунктуальність</h3>
+              <p class="feature__text">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
-            <li class="feature-item">
-              <a href="" class="feature-link link"
-                ><svg class="feature-icon" width="70px" height="70px">
+            <li class="feature__item">
+              <a href="" class="feature__link link"
+                ><svg class="feature__icon" width="70px" height="70px">
                   <use href="./images/symbol-defs.svg#diagram-1"></use>
                 </svg>
               </a>
 
-              <h3 class="feature-title">Планування</h3>
-              <p class="feature-text">
+              <h3 class="feature__title">Планування</h3>
+              <p class="feature__text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li class="feature-item">
-              <a href="" class="feature-link link"
-                ><svg class="feature-icon" width="70px" height="70px">
+            <li class="feature__item">
+              <a href="" class="feature__link link"
+                ><svg class="feature__icon" width="70px" height="70px">
                   <use href="./images/symbol-defs.svg#astronaut-1"></use></svg
               ></a>
 
-              <h3 class="feature-title">Сучасні технології</h3>
-              <p class="feature-text">
+              <h3 class="feature__title">Сучасні технології</h3>
+              <p class="feature__text">
                 Значимість цих проблем настільки очевидна, що реалізація
                 планових завдань.
               </p>
@@ -131,49 +135,49 @@
 
       <section class="activities section">
         <div class="container">
-          <h2 class="activities-title">Чим ми займаємося</h2>
-          <ul class="activities-list list">
-            <li class="activities-item">
-              <div class="activiti-thumb">
+          <h2 class="activities__title">Чим ми займаємося</h2>
+          <ul class="activities__list list">
+            <li class="activities__item">
+              <div class="activities__thumb">
                 <img
-                  class="activiti-foto"
+                  class="activities__foto"
                   src="./images/imga.jpg"
                   alt="Людина працює за ком'ютером"
                   width="370"
                 />
-                <div class="activiti-overlay">
-                  <div class="activitilink-overlay">
-                    <p class="activiti-overlay-text">Десктопні додатки</p>
+                <div class="activities__overlay">
+                  <div class="activiti__link">
+                    <p class="activities__text">Десктопні додатки</p>
                   </div>
                 </div>
               </div>
             </li>
-            <li class="activities-item">
-              <div class="activiti-thumb">
+            <li class="activities__item">
+              <div class="activities__thumb">
                 <img
-                  class="activiti-foto"
+                  class="activities__foto"
                   src="./images/imgb.jpg"
                   alt="Людина тримає телефон"
                   width="370"
                 />
-                <div class="activiti-overlay">
-                  <div class="activitilink-overlay">
-                    <p class="activiti-overlay-text">Десктопні додатки</p>
+                <div class="activities__overlay">
+                  <div class="activiti__link">
+                    <p class="activities__text">Десктопні додатки</p>
                   </div>
                 </div>
               </div>
             </li>
-            <li class="activities-item">
-              <div class="activiti-thumb">
+            <li class="activities__item">
+              <div class="activities__thumb">
                 <img
-                  class="activiti-foto"
+                  class="activities__foto"
                   src="./images/imgc.jpg"
                   alt="Людина працює на планщеті"
                   width="370"
                 />
-                <div class="activiti-overlay">
-                  <div class="activitilink-overlay">
-                    <p class="activiti-overlay-text">Десктопні додатки</p>
+                <div class="activities__overlay">
+                  <div class="activiti__link">
+                    <p class="activities__text">Десктопні додатки</p>
                   </div>
                 </div>
               </div>
@@ -570,30 +574,30 @@
       <!-- --------------------modal-window--------------------- -->
       <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-          <div class="button-close">
-            <button type="button" class="modal-close-btn" data-modal-close>
-              <svg class="modal-close-icon" width="18px" height="18px">
+          <div class="button">
+            <button type="button" class="button__close-btn" data-modal-close>
+              <svg class="button-close__icon" width="18px" height="18px">
                 <use href="./images/symbol-defs.svg#close"></use>
               </svg>
             </button>
           </div>
 
-          <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
+          <p class="modal__title">Залиште свої дані, ми вам передзвонимо</p>
           <form class="modal-form">
-            <div class="form-field">
-              <label for="user-name" class="input-label"
+            <div class="modal-form__field">
+              <label for="user-name" class="modal-form__label"
                 ><span>Ім'я</span></label
               >
-              <div class="input-wrap">
+              <div class="modal-form__wrap">
                 <input
                   type="text"
-                  class="modal-input"
+                  class="modal-form__input"
                   name="user-name"
                   placeholder=""
                   required
                   id="user-name"
                 />
-                <svg class="modal-input-icon" width="18px" height="18px">
+                <svg class="modal-form__icon" width="18px" height="18px">
                   <use
                     href="./images/symbol-defs.svg#person-black-18dp-1"
                   ></use>
@@ -601,49 +605,49 @@
               </div>
             </div>
 
-            <div class="form-field">
-              <label for="user-tel" class="input-label"
+            <div class="modal-form__field">
+              <label for="user-tel" class="modal-form__label"
                 ><span>Телефон</span></label
               >
-              <div class="input-wrap">
+              <div class="modal-form__wrap">
                 <input
                   type="tel"
-                  class="modal-input"
+                  class="modal-form__input"
                   name="user-tel"
                   placeholder=""
                   required
                   id="user-tel"
                 />
-                <svg class="modal-input-icon" width="18px" height="18px">
+                <svg class="modal-form__icon" width="18px" height="18px">
                   <use href="./images/symbol-defs.svg#phone-black-18dp-1"></use>
                 </svg>
               </div>
             </div>
 
-            <div class="form-field">
-              <label for="user-email" class="input-label">
+            <div class="modal-form__field">
+              <label for="user-email" class="modal-form__label">
                 <span>Пошта</span></label
               >
-              <div class="input-wrap">
+              <div class="modal-form__wrap">
                 <input
                   type="email"
-                  class="modal-input"
+                  class="modal-form__input"
                   name="user-email"
                   placeholder=""
                   required
                   id="user-email"
                 />
-                <svg class="modal-input-icon" width="18px" height="18px">
+                <svg class="modal-form__icon" width="18px" height="18px">
                   <use href="./images/symbol-defs.svg#email-black-18dp-1"></use>
                 </svg>
               </div>
             </div>
 
-            <div class="form-field-comment">
-              <label for="user-comment" class="input-label"
+            <div class="modal-form__field-comment">
+              <label for="user-comment" class="modal-form__label"
                 ><span>Коментар</span>
                 <textarea
-                  class="comment-modal-input"
+                  class="modal-form__comment-input"
                   name="user-comment"
                   id="user-comment"
                   placeholder="Введіть текст"
@@ -651,7 +655,7 @@
               </label>
             </div>
             <div class="checkbox-modal">
-              <label for="checkbox-btn" class="checkbox"
+              <label for="checkbox-btn" class="checkbox-modal__checkbox"
                 ><input
                   class="checkbox__input"
                   type="checkbox"
@@ -659,15 +663,17 @@
                   id="checkbox-btn"
                   required
                 />
-                <span class="check__icon"></span>
+                <span class="checkbox-modal__icon"></span>
 
-                <span class="checkbox-text"
+                <span class="checkbox-modal__text"
                   >Погоджуюся з розсилкою та приймаю </span
-                ><a href="#" class="checkbox-text-activ">Умови договору</a>
+                ><a href="#" class="checkbox-modal__text-activ"
+                  >Умови договору</a
+                >
               </label>
             </div>
 
-            <button class="modal-btn" type="submit">Відправити</button>
+            <button class="modal-form__btn" type="submit">Відправити</button>
           </form>
         </div>
       </div>

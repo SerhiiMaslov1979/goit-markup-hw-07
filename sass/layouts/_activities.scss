@@ -1,10 +1,10 @@
-.activiti-thumb {
+.activities__thumb {
   position: relative;
   width: 370px;
   overflow: hidden;
 }
 
-.activiti-overlay {
+.activities__overlay {
   display: block;
   position: absolute;
   bottom: 0;
@@ -14,11 +14,11 @@
   padding: 24px 107px;
   background-color: var(--activity-background);
 }
-.activities-list {
+.activities__list {
   display: flex;
   gap: 30px;
 }
-.activities-title {
+.activities__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -27,7 +27,7 @@
   color: var(--title-text-color);
   margin-bottom: 50px;
 }
-.activiti-overlay-text {
+.activities__text {
   font-family: inherit;
   font-style: normal;
   font-weight: 700;

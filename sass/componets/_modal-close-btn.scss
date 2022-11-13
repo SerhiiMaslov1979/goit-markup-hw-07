@@ -1,4 +1,4 @@
-.button__close-btn {
+.modal__close-btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,12 +15,12 @@
   transition: border-color var(--time-function) var(--transition-function);
 }
 
-.button__close-icon {
+.modal__close-icon {
   transition: fill var(--time-function) var(--transition-function);
 }
 
-.button__close-btn:hover,
-.button__close-btn:focus {
+.modal__close-btn:hover,
+.modal__close-btn:focus {
   border-color: var(--accent-color);
   fill: var(--accent-color);
 }

@@ -4,19 +4,19 @@
 @import "./base/common.scss";
 @import "./utils/hidden";
 
-@import "./componets/header-logo";
-@import "./componets/_header-contacts";
-@import "./componets/header-line";
+@import "./layouts/header-logo";
+@import "./layouts/header-contacts";
+@import "./layouts/header-line";
 @import "./layouts/header";
-@import "./layouts/hero";
+@import "./componets/hero";
 @import "./componets/hero-title";
 @import "./componets/hero-btn";
-@import "./layouts/feature";
-@import "./layouts/activities";
-@import "./layouts/workers";
-@import "./layouts/client";
+@import "./componets/feature";
+@import "./componets/activities";
+@import "./componets/workers";
+@import "./componets/client";
 
-@import "./layouts/work";
+@import "./componets/work";
 @import "./componets/worklink-btn";
 @import "./componets/hover-linkwork";
 @import "./componets/linkwork-title";
@@ -25,7 +25,7 @@
 @import "./componets/worker-title";
 @import "./componets/worker2-title";
 
-@import "./layouts/modalwindow";
+@import "./componets/modalwindow";
 @import "./componets/checkbox";
 @import "./componets/modal-btn";
 @import "./componets/modal-close-btn";
@@ -33,9 +33,9 @@
 @import "./componets/form-modal-window";
 
 @import "./layouts/footer";
-@import "./componets/footer-logo";
-@import "./componets/social-footer";
-@import "./componets/footer-form";
-@import "./componets/footer-btn";
-@import "./componets/footer-form-title";
-@import "./componets/footer-contacts";
+@import "./layouts/footer-logo";
+@import "./layouts/social-footer";
+@import "./layouts/footer-form";
+@import "./layouts/footer-btn";
+@import "./layouts/footer-form-title";
+@import "./layouts/footer-contacts";

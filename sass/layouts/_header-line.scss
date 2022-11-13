@@ -1,4 +1,4 @@
-.contacts-nav__link.current {
+.header__nav-link.current {
   position: relative;
 }
 
@@ -6,13 +6,13 @@
   position: absolute;
   left: 0;
   bottom: -1px;
-  content: "";
   display: block;
+  content: "";
   width: 100%;
   height: 4px;
   border-radius: 2px;
   background: var(--accent-color);
 }
-.contacts-nav .contacts-nav__link.current {
+.header__nav .header__nav-link.current {
   color: var(--accent-color);
 }

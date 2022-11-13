@@ -19,39 +19,47 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header class="header">
+   <header class="header__navigation">
       <div class="container header__container">
         <!-- logo -->
-        <a href="./index.html" class="logo"
-          >Web<span class="logo__black">Studio</span></a
+        <a href="./index.html" class="header__logo"
+          >Web<span class="logo-black">Studio</span></a
         >
         <!-- Меню навігації по інших сторінках -->
-        <nav>
-          <ul class="contacts-nav list">
-            <li class="contacts-nav__item">
-              <a class="contacts-nav__link" href="./index.html">Студія</a>
+         <nav class="header__nav">
+          <ul class="header__list list">
+            <li class="header__nav-item">
+              <a class="header__nav-link " href="./index.html">Студія</a>
             </li>
-            <li class="contacts-nav__item">
-              <a class="contacts-nav__link current" href="./portfolio.html">Портфоліо</a>
+            <li class="header__nav-item">
+              <a class="header__nav-link current" href="./portfolio.html">Портфоліо</a>
             </li>
-            <li class="contacts-nav__item">
-              <a class="contacts-nav__link" href="#">Контакти</a>
+            <li class="header__nav-item">
+              <a class="header__nav-link" href="#">Контакти</a>
             </li>
           </ul>
         </nav>
-        <ul class="contacts list">
-          <li class="contacts__item">
+        <ul class="header__contacts list">
+          <li class="header__contacts-item">
             <!-- Посилання на адресу електронної пошти  -->
-            <a class="contacts__mail" href="mailto:info@devstudio.com"
-              ><svg class="contacts__envelope-icon" width="16" height="12">
+            <a class="header__contacts-mail" href="mailto:info@devstudio.com"
+              ><svg
+                class="header__contacts-envelope-icon"
+                width="16"
+                height="12"
+              >
                 <use href="./images/symbol-defs.svg#envelope"></use></svg
               >info@devstudio.com</a
             >
           </li>
-          <li class="contacts__item">
+          <li class="header__contacts-item">
             <!-- Посилання на телефонний номер -->
-            <a class="contacts__phone" href="tel:+380961111111"
-              ><svg class="contacts__smartphone-icon" width="12" height="16">
+            <a class="header__contacts-phone" href="tel:+380961111111"
+              ><svg
+                class="header__contacts-smartphone-icon"
+                width="12"
+                height="16"
+              >
                 <use href="./images/symbol-defs.svg#smartphone"></use></svg
               >+38 096 111 11 11</a
             >

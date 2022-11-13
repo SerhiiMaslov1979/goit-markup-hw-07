@@ -1,4 +1,4 @@
-.header {
+.header-navigation {
   display: flex;
   align-items: center;
   border-bottom: 1px solid var(--border-header);
@@ -8,8 +8,8 @@
   align-items: center;
 }
 
-.contacts-nav__item,
-.contacts__item:not(:last-child) {
+.header__nav-item,
+.header__contacts-item:not(:last-child) {
   margin-right: 50px;
 }
 // .header-item:not(:last-child) {

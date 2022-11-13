@@ -1,14 +1,14 @@
-.checkbox-modal {
+.modal__checkbox {
   display: inline-flex;
   align-items: center;
   margin-bottom: 30px;
 }
-.checkbox-modal__checkbox {
+.modal__checkbox-btn {
   display: flex;
   align-items: center;
 }
 
-.checkbox-modal__text {
+.modal__checkbox-text {
   font-family: inherit;
   font-style: normal;
   font-weight: 400;
@@ -17,7 +17,7 @@
   letter-spacing: 0.03em;
   white-space: pre;
 }
-.checkbox-modal__text-activ {
+.modal__checkbox-text-activ {
   font-family: inherit;
   font-style: normal;
   font-weight: 400;
@@ -28,11 +28,11 @@
   text-decoration: underline;
 }
 
-.checkbox__input {
+.modal__checkbox-input {
   -webkit-appearance: none;
   appearance: none;
 }
-.checkbox-modal__icon {
+.modal__checkbox-icon {
   display: inline-block;
   width: 15px;
   height: 15px;
@@ -40,7 +40,7 @@
   border-radius: 4px;
   margin-right: 7px;
 }
-.checkbox__input:checked + .checkbox-modal__icon {
+.modal__checkbox-input:checked + .modal__checkbox-icon {
   background-image: url(../images/icon-check.svg);
   background-size: contain;
   background-origin: border-box;

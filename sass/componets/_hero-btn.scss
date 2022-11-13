@@ -1,4 +1,4 @@
-.hero-button {
+.hero__button {
   border-radius: 4px;
   padding: 10px 32px;
   font-family: inherit;
@@ -16,8 +16,8 @@
   transition: background-color var(--time-function) var(--transition-function),
     color var(--time-function) var(--transition-function);
 }
-.hero-button:hover,
-.hero-button:focus {
+.hero__button:hover,
+.hero__button:focus {
   background-color: var(--activ-accent-color);
   color: var(--accent2-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);

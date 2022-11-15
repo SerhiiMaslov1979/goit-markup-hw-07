@@ -532,6 +532,10 @@ body {
   opacity: 1;
 }
 
+.linkwork-product:focus .linkwork-overlay {
+  opacity: 1;
+}
+
 .linkwork-thumb:hover::before {
   opacity: 1;
 }
@@ -555,6 +559,10 @@ body {
 }
 
 .linkwork-product:hover .linkwork-product-overlay {
+  transform: translateY(0);
+}
+
+.linkwork-product:focus .linkwork-product-overlay {
   transform: translateY(0);
 }
 
